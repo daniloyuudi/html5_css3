@@ -247,12 +247,21 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .mapa p, .video {
 		width: auto;
 	}
 
 	.mapa p {
 		width: auto;
+	}
+
+	.produtos {
+		width: auto;
+	}
+
+	.produtos li {
+		width: 94%;
+		margin: 10px 3% 10px 3%;
 	}
 
 	h1 {
@@ -265,5 +274,18 @@ td, th {
 
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
+	}
+
+	form {
+		width: auto;
+	}
+
+	form div {
+		width: 100%;
+		margin: 10px auto;
+	}
+
+	.input-padrao {
+		width: 70%;
 	}
 }
